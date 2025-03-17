@@ -1,0 +1,32 @@
+{
+    "package": [
+        {
+            "header": "Paketlərim",
+            "image": "Motor 1",
+            "title": "Aktiv paketiniz Tapılmadı",
+            "subtitle": "Hal hazırda seçilmiş paketiniz yoxdur."
+        }
+    ],
+    "econom": [
+        {
+            "leftImage": "image1",
+            "title": "Ana Yemək",
+            "subtitle": "Salmon salat ilə"
+        },
+        {
+            "leftImage": "image2",
+            "title": "Garnir",
+            "subtitle": "Paneer Signature Rice Bowl"
+        },
+        {
+            "leftImage": "image3",
+            "title": "Salat",
+            "subtitle": "Paneer Signature Rice Bowl"
+        },
+        {
+            "leftImage": "image4",
+            "title": "İçki",
+            "subtitle": "Coca Cola Zero"
+        }
+    ]
+}
