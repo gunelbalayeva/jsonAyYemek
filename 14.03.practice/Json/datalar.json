@@ -1,5 +1,5 @@
 {
-    "package": [
+    "packages": [
         {
             "header": "Paketlərim",
             "image": "Motor 1",
@@ -7,7 +7,7 @@
             "subtitle": "Hal hazırda seçilmiş paketiniz yoxdur."
         }
     ],
-    "econom": [
+    "economs": [
         {
             "leftImage": "image1",
             "title": "Ana Yemək",
@@ -27,6 +27,13 @@
             "leftImage": "image4",
             "title": "İçki",
             "subtitle": "Coca Cola Zero"
+        }
+    ],
+    "model": [
+        {
+            "title": "Ekonom",
+            "subtitle": "17 Yanvar sifarişi seçilibdir",
+            "image": "image"
         }
     ]
 }

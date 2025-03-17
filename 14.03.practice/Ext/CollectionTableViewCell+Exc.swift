@@ -18,3 +18,8 @@ extension UITableViewCell {
     }
 }
 
+extension UIViewController {
+    static var identifier :String {
+        String(describing: self)
+    }
+}

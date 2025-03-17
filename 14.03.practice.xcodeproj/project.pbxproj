@@ -13,6 +13,17 @@
 		CE8A7B872D848221002FF5DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8A7B852D848221002FF5DA /* Main.storyboard */; };
 		CE8A7B892D848224002FF5DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8A7B882D848224002FF5DA /* Assets.xcassets */; };
 		CE8A7B8C2D848224002FF5DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8A7B8A2D848224002FF5DA /* LaunchScreen.storyboard */; };
+		CE8A7B942D84826C002FF5DA /* CollectionTableViewCell+Exc.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A7B932D84826C002FF5DA /* CollectionTableViewCell+Exc.swift */; };
+		CE8A7B9B2D8483B8002FF5DA /* PackageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A7B992D8483B8002FF5DA /* PackageTableViewCell.swift */; };
+		CE8A7B9C2D8483B8002FF5DA /* PackageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8A7B9A2D8483B8002FF5DA /* PackageTableViewCell.xib */; };
+		CE8A7BAA2D84A1C4002FF5DA /* EconomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A7BA92D84A1C4002FF5DA /* EconomViewController.swift */; };
+		CE8A7BB82D885449002FF5DA /* EconomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A7BB62D885449002FF5DA /* EconomTableViewCell.swift */; };
+		CE8A7BB92D885449002FF5DA /* EconomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8A7BB72D885449002FF5DA /* EconomTableViewCell.xib */; };
+		CE8A7BC12D88804D002FF5DA /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A7BC02D88804D002FF5DA /* Model.swift */; };
+		CE8A7BC22D88955A002FF5DA /* datalar.json in Resources */ = {isa = PBXBuildFile; fileRef = CE8A7BBF2D885B97002FF5DA /* datalar.json */; };
+		CE8A7BC42D88A1AD002FF5DA /* PackagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A7BC32D88A1AD002FF5DA /* PackagesViewController.swift */; };
+		CE8A7BC72D88A354002FF5DA /* MyPackagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A7BC52D88A353002FF5DA /* MyPackagesCell.swift */; };
+		CE8A7BC82D88A354002FF5DA /* MyPackagesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8A7BC62D88A353002FF5DA /* MyPackagesCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		CE8A7B882D848224002FF5DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE8A7B8B2D848224002FF5DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE8A7B8D2D848224002FF5DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8A7B932D84826C002FF5DA /* CollectionTableViewCell+Exc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollectionTableViewCell+Exc.swift"; sourceTree = "<group>"; };
+		CE8A7B992D8483B8002FF5DA /* PackageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageTableViewCell.swift; sourceTree = "<group>"; };
+		CE8A7B9A2D8483B8002FF5DA /* PackageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PackageTableViewCell.xib; sourceTree = "<group>"; };
+		CE8A7BA92D84A1C4002FF5DA /* EconomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EconomViewController.swift; path = ../EconomViewController.swift; sourceTree = "<group>"; };
+		CE8A7BB62D885449002FF5DA /* EconomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EconomTableViewCell.swift; sourceTree = "<group>"; };
+		CE8A7BB72D885449002FF5DA /* EconomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EconomTableViewCell.xib; sourceTree = "<group>"; };
+		CE8A7BBF2D885B97002FF5DA /* datalar.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = datalar.json; sourceTree = "<group>"; };
+		CE8A7BC02D88804D002FF5DA /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		CE8A7BC32D88A1AD002FF5DA /* PackagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackagesViewController.swift; sourceTree = "<group>"; };
+		CE8A7BC52D88A353002FF5DA /* MyPackagesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPackagesCell.swift; sourceTree = "<group>"; };
+		CE8A7BC62D88A353002FF5DA /* MyPackagesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyPackagesCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +78,13 @@
 		CE8A7B7E2D848221002FF5DA /* 14.03.practice */ = {
 			isa = PBXGroup;
 			children = (
-				CE8A7B7F2D848221002FF5DA /* AppDelegate.swift */,
-				CE8A7B812D848221002FF5DA /* SceneDelegate.swift */,
+				CE8A7BC92D88B617002FF5DA /* myPackages */,
+				CE8A7BA82D849B65002FF5DA /* packages */,
+				CE8A7BA72D849AAD002FF5DA /* Json */,
+				CE8A7BA22D84974D002FF5DA /* App */,
+				CE8A7B9D2D8496FA002FF5DA /* Ekonom */,
+				CE8A7B962D848336002FF5DA /* package */,
+				CE8A7B952D848318002FF5DA /* Ext */,
 				CE8A7B832D848221002FF5DA /* ViewController.swift */,
 				CE8A7B852D848221002FF5DA /* Main.storyboard */,
 				CE8A7B882D848224002FF5DA /* Assets.xcassets */,
@@ -65,6 +92,68 @@
 				CE8A7B8D2D848224002FF5DA /* Info.plist */,
 			);
 			path = 14.03.practice;
+			sourceTree = "<group>";
+		};
+		CE8A7B952D848318002FF5DA /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				CE8A7B932D84826C002FF5DA /* CollectionTableViewCell+Exc.swift */,
+			);
+			path = Ext;
+			sourceTree = "<group>";
+		};
+		CE8A7B962D848336002FF5DA /* package */ = {
+			isa = PBXGroup;
+			children = (
+				CE8A7B992D8483B8002FF5DA /* PackageTableViewCell.swift */,
+				CE8A7B9A2D8483B8002FF5DA /* PackageTableViewCell.xib */,
+			);
+			path = package;
+			sourceTree = "<group>";
+		};
+		CE8A7B9D2D8496FA002FF5DA /* Ekonom */ = {
+			isa = PBXGroup;
+			children = (
+				CE8A7BB62D885449002FF5DA /* EconomTableViewCell.swift */,
+				CE8A7BB72D885449002FF5DA /* EconomTableViewCell.xib */,
+				CE8A7BA92D84A1C4002FF5DA /* EconomViewController.swift */,
+			);
+			path = Ekonom;
+			sourceTree = "<group>";
+		};
+		CE8A7BA22D84974D002FF5DA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CE8A7B7F2D848221002FF5DA /* AppDelegate.swift */,
+				CE8A7B812D848221002FF5DA /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CE8A7BA72D849AAD002FF5DA /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				CE8A7BBF2D885B97002FF5DA /* datalar.json */,
+				CE8A7BC02D88804D002FF5DA /* Model.swift */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		CE8A7BA82D849B65002FF5DA /* packages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = packages;
+			sourceTree = "<group>";
+		};
+		CE8A7BC92D88B617002FF5DA /* myPackages */ = {
+			isa = PBXGroup;
+			children = (
+				CE8A7BC32D88A1AD002FF5DA /* PackagesViewController.swift */,
+				CE8A7BC52D88A353002FF5DA /* MyPackagesCell.swift */,
+				CE8A7BC62D88A353002FF5DA /* MyPackagesCell.xib */,
+			);
+			path = myPackages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +214,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8A7B9C2D8483B8002FF5DA /* PackageTableViewCell.xib in Resources */,
+				CE8A7BB92D885449002FF5DA /* EconomTableViewCell.xib in Resources */,
 				CE8A7B8C2D848224002FF5DA /* LaunchScreen.storyboard in Resources */,
 				CE8A7B892D848224002FF5DA /* Assets.xcassets in Resources */,
 				CE8A7B872D848221002FF5DA /* Main.storyboard in Resources */,
+				CE8A7BC82D88A354002FF5DA /* MyPackagesCell.xib in Resources */,
+				CE8A7BC22D88955A002FF5DA /* datalar.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +232,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE8A7B842D848221002FF5DA /* ViewController.swift in Sources */,
+				CE8A7BC42D88A1AD002FF5DA /* PackagesViewController.swift in Sources */,
+				CE8A7BC72D88A354002FF5DA /* MyPackagesCell.swift in Sources */,
+				CE8A7BB82D885449002FF5DA /* EconomTableViewCell.swift in Sources */,
 				CE8A7B802D848221002FF5DA /* AppDelegate.swift in Sources */,
+				CE8A7BAA2D84A1C4002FF5DA /* EconomViewController.swift in Sources */,
+				CE8A7B942D84826C002FF5DA /* CollectionTableViewCell+Exc.swift in Sources */,
 				CE8A7B822D848221002FF5DA /* SceneDelegate.swift in Sources */,
+				CE8A7B9B2D8483B8002FF5DA /* PackageTableViewCell.swift in Sources */,
+				CE8A7BC12D88804D002FF5DA /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
